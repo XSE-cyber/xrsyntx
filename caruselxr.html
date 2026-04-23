@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+#rec827850348 {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+#rec827850348 .carousel-container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  perspective: 2000px;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+#rec827850348 .carousel-track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+#rec827850348 .carousel-slide {
+  position: absolute;
+  width: 338px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  margin-left: -169px;
+  margin-top: -300px;
+  transform-style: preserve-3d;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+  will-change: transform, opacity;
+}
+
+#rec827850348 .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #0F0F0F;
+}
+
+#rec827850348 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#rec827850348 video.loaded {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  #rec827850348 .carousel-slide {
+    width: 150px;
+    height: 250px;
+    margin-left: -75px;
+    margin-top: -125px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="rec827850348">
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <!-- Карточки с видео -->
+<div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/2025%20XR/Twinby%204_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/school/videos/PIMS_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/vdxr/AKIRA_1_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/vdxr/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0_1_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/vdxr/%D0%9F%D0%BE%D1%80%D1%88%20(1)_1_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>            <div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/vdxr/%D0%94%D0%B5%D0%B2%D0%BE%D1%87%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D1%82%D0%B0%D0%BD%D0%BE%D0%B8%CC%86_1_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div><div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/vdxr/%D0%AD%D0%BB%D0%B4%D0%B6%D0%B5%D0%B8%CC%86%20(1)_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div><div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/vdxr/%D0%9E%D0%BA%D0%BE%D0%BB%D0%BE%20%D1%80%D0%B5%D0%BA%D0%B8%20(1)_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div><div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/2025%20XR/mode/green%20katana.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div><div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/2025%20XR/mode/IMG_5630.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+		<div class="carousel-slide">
+        <div class="video-container">
+          <video autoplay muted loop playsinline preload="none">
+            <source src="https://videoxr.b-cdn.net/school/videos/xr-school-syntx-davai-navali.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const container = document.querySelector('#rec827850348 .carousel-container');
+  const track = document.querySelector('#rec827850348 .carousel-track');
+  const slides = document.querySelectorAll('#rec827850348 .carousel-slide');
+  const videos = document.querySelectorAll('#rec827850348 video');
+  
+  let currentAngle = 0;
+  let isAnimating = true;
+  let isDragging = false;
+  let startX = 0;
+  let startAngle = 0;
+  let rafId = null;
+
+  const loadVideo = (video) => {
+    if (!video.dataset.loaded) {
+      video.load();
+      video.playbackRate = 0.5;
+      video.play().then(() => {
+        video.classList.add('loaded');
+        video.dataset.loaded = true;
+      }).catch(() => {});
+    }
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const video = entry.target;
+        loadVideo(video);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  videos.forEach(video => observer.observe(video));
+
+  function updateSlides() {
+    const radius = window.innerWidth < 768 ? 300 : 600;
+    const totalSlides = slides.length;
+    const angleStep = (Math.PI * 2) / totalSlides;
+
+    let closestSlide = null;
+    let minAngleDiff = Infinity;
+
+    slides.forEach((slide, index) => {
+      const angle = currentAngle + (index * angleStep);
+      const x = Math.sin(angle) * radius;
+      const z = Math.cos(angle) * radius;
+
+      const distanceFromFront = Math.abs(Math.cos(angle));
+      const scale = 0.7 + (0.4 * (1 - distanceFromFront));
+
+      // Определение центрального элемента
+      const angleDiff = Math.abs(Math.sin(angle));
+      if (angleDiff < minAngleDiff) {
+        minAngleDiff = angleDiff;
+        closestSlide = slide;
+      }
+
+      slide.style.transform = `translate3d(${x}px, 0, ${z}px) rotateY(${angle * (180 / Math.PI)}deg) scale(${scale})`;
+      slide.style.zIndex = Math.round((1 - distanceFromFront) * 100);
+    });
+
+    // Устанавливаем прозрачность
+    slides.forEach(slide => {
+      slide.style.opacity = slide === closestSlide ? 1 : 0.4;
+    });
+  }
+
+  function animate() {
+    if (isAnimating && !isDragging) {
+      currentAngle += 0.002;
+    }
+    updateSlides();
+    rafId = requestAnimationFrame(animate);
+  }
+
+  const handleStart = (x) => {
+    isDragging = true;
+    startX = x;
+    startAngle = currentAngle;
+    container.style.cursor = 'grabbing';
+  };
+
+  const handleMove = (x) => {
+    if (!isDragging) return;
+    const dx = x - startX;
+    currentAngle = startAngle + (dx * 0.005);
+  };
+
+  const handleEnd = () => {
+    isDragging = false;
+    container.style.cursor = 'grab';
+  };
+
+  container.addEventListener('mousedown', (e) => handleStart(e.clientX));
+  window.addEventListener('mousemove', (e) => handleMove(e.clientX));
+  window.addEventListener('mouseup', handleEnd);
+
+  container.addEventListener('touchstart', (e) => handleStart(e.touches[0].clientX));
+  container.addEventListener('touchmove', (e) => handleMove(e.touches[0].clientX));
+  container.addEventListener('touchend', handleEnd);
+
+  container.addEventListener('mouseenter', () => isAnimating = false);
+  container.addEventListener('mouseleave', () => {
+    isAnimating = true;
+    isDragging = false;
+  });
+
+  window.addEventListener('beforeunload', () => {
+    if (rafId) cancelAnimationFrame(rafId);
+    observer.disconnect();
+  });
+
+  animate();
+  updateSlides();
+})();
+</script>
+
+</body>
+</html>
